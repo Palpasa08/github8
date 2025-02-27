@@ -1,0 +1,149 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog-920</title>
+  <style>
+    body {
+      font-family: "Times New Roman", serif;
+      background-color: #f4f4f4;
+      font-size: 20px;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    /* Style for top header */
+    .topleft {
+      display: flex;
+      align-items: center;
+      padding: 20px;
+      background-color: #fff;
+      font-family: Papyrus, fantasy;  /* Apply Fantasy font to title */
+    }
+
+    .vl {
+      width: 4px;
+      height: 150px;
+      background-color: black;
+      margin-left: 10px;
+    }
+
+    /* Text and title under top header */
+    .text {
+      font-size: 40px;
+      font-family: Papyrus, fantasy;  /* Apply Fantasy font to subtitle */
+    }
+
+    .txt {
+      font-family: "Times New Roman", serif;
+      color: #4CAF50;
+    }
+
+    /* Closer hr */
+    hr {
+      margin-top: 10px;  /* Reduced margin */
+      border: 1px solid #ddd;
+    }
+
+    /* Image container style */
+    .image {
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    .image img {
+      width: 100%;
+      height: auto;
+      max-width: 600px;
+    }
+
+    /* Section style */
+    .section {
+      margin: 20px 0;
+      padding: 20px;
+      background-color: #fff;
+      font-family: "Times New Roman", serif;  /* Apply Times New Roman font */
+      width: 30%; /* Set each section to take up 30% of the width */
+      box-sizing: border-box;
+      margin-right: 3%; /* Space between sections */
+    }
+
+    .section h2 {
+      font-size: 36px;
+      color: #333;
+    }
+
+    .section p {
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    .section img {
+      width: 100%;
+      height: auto;
+      max-width: 600px;
+      margin-top: 10px;
+    }
+
+    /* For News section title */
+    .news-title {
+      font-size: 40px;
+      text-align: center;
+      font-family: fantasy;  /* Apply Fantasy font for "NEWS" */
+      color: #4CAF50;
+      margin-top: 20px;
+    }
+
+    /* Container for business, sports, and entertainment sections side by side */
+    .sections-container {
+      display: flex;
+      justify-content: space-between;  /* Spaces the sections apart */
+      flex-wrap: wrap;  /* Allows wrapping if needed */
+    }
+  </style>
+</head>
+<body>
+
+<!-- Top section with title and vertical line -->
+<div class="topleft">
+  <h1>THE HOURS</h1>
+  <div class="vl"></div>
+  <p class="text">News and Opinion Blog</p>
+</div>
+
+<hr>
+
+<!-- "NEWS" Section - Separate from images -->
+<p class="news-title"><strong>NEWS</strong></p>
+
+<!-- Container for business, sports, and entertainment sections -->
+<div class="sections-container">
+  <!-- Business Section -->
+  <div class="section" id="business">
+    <h2>Business</h2>
+    <p><strong>1. Stock Market Insights</strong><br>Recent stock market movements show a promising trend as technology stocks surge. Investors are eager to see how the economy will recover in the coming months.</p>
+    <p><strong>2. Economic Growth Projections</strong><br>The global economy is expected to grow by 4% this year, with experts pointing to strong recovery in emerging markets.</p>
+    <img src="1images.jpeg" width="20%" height="20%">
+  </div>
+
+  <!-- Sports Section -->
+  <div class="section" id="sports">
+    <h2>Sports</h2>
+    <p><strong>1. International Women's Championship Final</strong><br>The final of the international women's championship was one of the most thrilling matches ever with more than 10000 Nepali viewers on the stadium; Myanmar defeated Nepali team with 2-0 score.</p>
+    <p><strong>2. Tennis Grand Slam</strong><br>In an unexpected turn of events, the underdog player won the grand slam, defeating the reigning champion in a thrilling five-set match.</p>
+    <img src="2images.jpeg" alt="Sports news">
+  </div>
+
+  <!-- Entertainment Section -->
+  <div class="section" id="entertainment">
+    <h2>Entertainment</h2>
+    <p><strong>1. Blockbuster Movie Release</strong><br>The new  movie Pushpa 2 has taken the box office by storm, breaking records worldwide and receiving critical acclaim.</p>
+    <p><strong>2. Music Album Debut</strong><br>The new album from a popular music artist has taken the world by surprise, with many hit singles topping the charts.</p>
+    <img src="3images.jpeg" alt="Entertainment news">
+  </div>
+</div>
+
+</body>
+</html>
